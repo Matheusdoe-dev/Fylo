@@ -4,5 +4,8 @@
   "description": "Fylo web application",
   "main": "src/server/server.js",
   "author": "Matheusdoe-dev <matheusdoe.dev@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
