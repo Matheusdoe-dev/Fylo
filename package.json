@@ -5,7 +5,12 @@
   "main": "src/server/server.js",
   "author": "Matheusdoe-dev <matheusdoe.dev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "dev": "nodemon src/server/server.js"
+  },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   },
   "devDependencies": {
