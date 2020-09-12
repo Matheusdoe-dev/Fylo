@@ -1,0 +1,8 @@
+{
+  "name": "fylo",
+  "version": "1.0.0",
+  "description": "Fylo web application",
+  "main": "src/server/server.js",
+  "author": "Matheusdoe-dev <matheusdoe.dev@gmail.com>",
+  "license": "MIT"
+}
