@@ -1,0 +1,25 @@
+.header-container {
+  padding: var(--gap-sm) 0;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: var(--gap-sm);
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-nav-menu {
+  display: flex;
+}
+
+.header-nav-item {
+  margin-left: var(--gap-sm);
+}
+
+.header-nav-link {
+  font-size: 0.875rem;
+}

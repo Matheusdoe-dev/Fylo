@@ -1,0 +1,41 @@
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: var(--gap-sm);
+
+  padding: var(--gap-lg) 0;
+}
+
+.hero-img {
+  width: 100%;
+  justify-content: center;
+}
+
+.hero-title {
+  margin-top: calc(var(--gap-md) * 1.5);
+
+  text-align: center;
+  letter-spacing: 0.1rem;
+  line-height: 1.35em;
+}
+
+.hero-paragraph {
+  margin: var(--gap-md) auto 0 auto;
+  text-align: center;
+
+  line-height: 1.55em;
+}
+
+.hero-cta-button {
+  background: var(--bright-blue);
+  color: var(--light-grayish-blue);
+
+  margin-top: var(--gap-sm);
+}
+
+.hero-input-email {
+  color: var(--light-gray);
+  border-color: var(--desaturated-blue);
+
+  margin-top: var(--gap-md);
+}
