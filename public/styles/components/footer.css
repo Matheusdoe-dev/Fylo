@@ -1,0 +1,131 @@
+.footer {
+  background-color: var(--very-dark-blue);
+}
+
+.footer-container {
+  padding: var(--gap-xl) 0;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: var(--gap-sm);
+}
+
+.footer-brand {
+  margin-bottom: var(--gap-lg);
+}
+
+.footer-phone,
+.footer-email {
+  color: var(--light-grayish-blue);
+  display: flex;
+  margin-bottom: var(--gap-md);
+}
+
+.footer-email {
+  margin-bottom: var(--gap-lg);
+}
+
+.footer-phone-icon,
+.footer-email-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--gap-md);
+}
+
+.footer-nav {
+  margin-bottom: var(--gap-lg);
+}
+
+.footer-nav-item {
+  margin-bottom: var(--gap-sm);
+}
+
+.footer-nav-link {
+  color: var(--light-grayish-blue);
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding-left: 0;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+.footer-nav-link:hover {
+  transition: .2s;
+  filter: brightness(85%);
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  -webkit-filter: brightness(65%);
+}
+
+.copy {
+  text-align: center;
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--light-gray);
+}
+
+.copy a {
+  color: var(--bright-blue);
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+.copy a:hover {
+  transition: .2s;
+  filter: brightness(65%);
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  -webkit-filter: brightness(65%);
+}
+
+.matheusdoe-dev {
+  color: #811662 !important;
+}
+
+@media (min-width: 600px) {
+  .footer-container {
+    padding: var(--gap-lg) 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'brand brand brand'
+                          'footer-contacts footer-nav footer-nav-2'
+                          'copy copy copy';
+  }
+
+  .footer-brand {
+    grid-area: brand;
+  }
+
+  .footer-contacs {
+    grid-area: footer-contacts;
+  }
+
+  .footer-nav {
+    grid-area: footer-nav;
+  }
+
+  .footer-nav-2 {
+    grid-area: footer-nav-2;
+  }
+
+  .copy {
+    grid-area: copy;
+
+    max-width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .copy a {
+    color: var(--bright-blue);
+  }
+}
