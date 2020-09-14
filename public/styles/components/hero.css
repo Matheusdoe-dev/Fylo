@@ -3,7 +3,7 @@
   grid-template-columns: 1fr;
   column-gap: var(--gap-sm);
 
-  padding: var(--gap-lg) 0;
+  padding: var(--gap-xl) 0;
 }
 
 .hero-img {
@@ -20,22 +20,47 @@
 }
 
 .hero-paragraph {
-  margin: var(--gap-md) auto 0 auto;
+  margin: var(--gap-md) auto;
   text-align: center;
 
   line-height: 1.55em;
 }
 
-.hero-cta-button {
-  background: var(--bright-blue);
-  color: var(--light-grayish-blue);
+@media (min-width: 600px) {
+  .hero-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'hero-intro hero-img';
+    column-gap: var(--gap-md);
+    align-items: start;
 
-  margin-top: var(--gap-sm);
-}
+    padding: var(--gap) 0;
+  }
 
-.hero-input-email {
-  color: var(--light-gray);
-  border-color: var(--desaturated-blue);
+  .hero-intro {
+    grid-area: hero-intro;
+  }
 
-  margin-top: var(--gap-md);
+  .hero-img {
+    grid-area: hero-img;
+  }
+
+  .hero-title {
+    text-align: left;
+  }
+
+  .hero-paragraph {
+    text-align: left;
+
+    margin: var(--gap-md) 0;
+  }
+
+  .hero-cta-form {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: var(--gap-sm);
+  }
+
+  .hero-cta-form button, .hero-cta-form input {
+    margin: 0;
+  }
 }

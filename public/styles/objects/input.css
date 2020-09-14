@@ -1,7 +1,7 @@
 .input {
   display: block;
   width: 100%;
-  padding: var(--gap-sm) var(--gap-sm);
+  padding: 1rem;
   border: 1px solid;
   border-radius: 4px;
   -webkit-border-radius: 4px;
