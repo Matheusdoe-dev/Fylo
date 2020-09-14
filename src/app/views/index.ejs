@@ -6,50 +6,56 @@
 
     <main class="container hero-container">
       <img src="/assets/illustration-1.svg" alt="Intro illustration" class="hero-img">
-      <h1 class="hero-title">All your files in one secure location, accessible anywhere</h1>
-      <p class="hero-paragraph">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
-      <form>
-        <input 
-          type="email" 
-          class="hero-input-email input" 
-          id="email" 
-          name="email" 
-          placeholder="Enter your email" 
-          required
-        >
-        <button type="submit" class="hero-cta-button btn">Get Started</button>
-      </form>
+      <div class="hero-intro">
+        <h1 class="hero-title">All your files in one secure location, accessible anywhere</h1>
+        <p class="hero-paragraph">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
+        <form class="hero-cta-form">
+          <input 
+            type="email" 
+            class="cta-input input" 
+            id="email" 
+            name="email" 
+            placeholder="Enter your email" 
+            required
+          >
+          <button type="submit" class="cta-button btn">Get Started</button>
+        </form>
+      </div>
     </main>
 
     <main class="features">
       <div class="container features-container">
-        <img src="/assets/illustration-2.svg" alt="Features illustration" class="features-img">
-        <h2 class="features-title">Stay productive, wherever you are</h2>
-        <p class="features-text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.<br><br> Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
-        <a href="#" class="features-link">
-          See how Fylo works 
-          <img src="/assets/icon-arrow.svg" alt="Arrow" class="features-link-icon">
-        </a>
-        <article class="features-testimonial-card">
-          <img src="/assets/icon-quotes.svg" alt="Quotes" class="testimonial-quote">
-          <p class="testimonial-text"> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
-          <div src="testimonial-person">
-            <img src="/assets/avatar-testimonial.jpg" alt="Avatar" class="testimonial-avatar">
-            <div src="testimonial-info">
-              <h3 class="testimonial-name">Kyle Burton</h3>
-              <span class="testimonial-description">Founder & CEO, Huddle</span>
+        <img class="features-img" src="/assets/illustration-2.svg" alt="Features illustration" class="features-img">
+        <section class="features-content">
+          <h2 class="features-title">Stay productive, wherever you are</h2>
+          <p class="features-text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.<br><br> Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+          <a href="#" class="features-link">
+            See how Fylo works 
+            <img src="/assets/icon-arrow.svg" alt="Arrow" class="features-link-icon">
+          </a>
+          <article class="features-testimonial-card">
+            <img src="/assets/icon-quotes.svg" alt="Quotes" class="testimonial-quote">
+            <p class="testimonial-text"> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="testimonial-person">
+              <img src="/assets/avatar-testimonial.jpg" alt="Avatar" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <h4 class="testimonial-name">Kyle Burton</h4>
+                <span class="testimonial-description">Founder & CEO, Huddle</span>
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
+        </section>
       </div>
     </main>
 
     <section class="cta">
       <div class="container cta-container">
-        <h2 class="cta-title">Get early access today</h2>
-        <p class="cta-text">It only takes a minute to sign up and our free starter tier is
-          extremely generous. If you have any questions, our support team would be
-          happy to help you.</p>
+        <div class="cta-content">
+          <h2 class="cta-title">Get early access today</h2>
+          <p class="cta-text">It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team would be
+            happy to help you.</p>
+        </div>
         <form action="" class="cta-form">
           <input 
           type="email" 
@@ -59,7 +65,7 @@
           placeholder="email@example.com" 
           required
         >
-          <button type="submit" class="cta-button">Get Started For Free</button>
+          <button type="submit" class="cta-button btn">Get Started For Free</button>
         </form>
       </div>
     </section>
