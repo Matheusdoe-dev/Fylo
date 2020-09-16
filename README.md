@@ -1,6 +1,6 @@
 # Fylo
 
-> Langing page, a Frontend Mentor challenge
+> Landing page, a Frontend Mentor challenge
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
