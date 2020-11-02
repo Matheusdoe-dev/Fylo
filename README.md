@@ -2,9 +2,11 @@
 
 > Landing page, a Frontend Mentor challenge
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+![Repo Size][repo-size]
+![Top Languages][top-languages]
+![Repo License][repo-license]
+![Repo Version][repo-version]
+![Personal Site][matheus-img]
 
 ## Get Started
 
@@ -53,9 +55,9 @@ Author: Matheus do É Santos – [Linkedin](https://www.linkedin.com/in/matheusd
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+[top-languages]: https://img.shields.io/github/languages/top/Matheusdoe-dev/Fylo?style=flat-square
+[repo-size]: https://img.shields.io/github/repo-size/Matheusdoe-dev/Fylo?style=flat-square
+[repo-license]: https://img.shields.io/github/license/Matheusdoe-dev/Fylo?style=flat-square
+[repo-version]: https://img.shields.io/github/package-json/v/Matheusdoe-dev/Fylo?style=flat-square
+[matheus-img]: https://img.shields.io/badge/-matheusdoe.dev-%23811662?style=flat-square
+[matheus-url]: https://matheusdoe.dev
